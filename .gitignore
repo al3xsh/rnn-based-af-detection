@@ -1,0 +1,16 @@
+# ignore the "wip" work in progress directory
+wip/
+
+# ignore saved training / validation data
+*.npy
+*.npz
+
+# ignore model checkpoints
+*.h5
+*.hdf5
+
+# ignore the saved model stuff
+model/
+
+# ignore compiled python modules
+__pycache__/
